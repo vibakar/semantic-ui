@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PL T20</title>
+  <link rel="stylesheet" href="D:\workspace\semantic\dist\semantic.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.min.js"></script>
+  <script  src="D:\workspace\semantic\dist\semantic.min.js"></script>
+
+  <style>
+  .position{
+    position: relative;
+    top:140px;
+  }
+  h1,h3{
+    position: relative;
+    top:120px;
+    text-align: center;
+    color:white;
+  }
+  h1{
+    font-family: sans-serif;
+  }
+  h3{
+    font-family: cursive;
+  }
+  h2,strong,a{
+    color:white;
+  }
+  body{
+    background-image: url(images/login.jpg);
+    background-repeat: no-repeat;
+  }
+  </style>
+</head>
+<body>
+    <h1>Welcome To PLT20 League</h1>
+    <h3>Login To Win More Prizes By Playing Fantasy</h3>
+          <div class="ui one column center aligned grid position">
+            <div class="column four wide form-holder">
+              <h2 class="center aligned header form-head">Sign Up</h2>
+              <div class="ui form">
+                <form action="pl.html">
+                    <div class="field">
+                      <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="field">
+                      <input type="password" placeholder="password" required>
+                    </div>
+                    <div class="field">
+                      <input type="submit" value="Sign up" class="ui button large fluid primary">
+                    </div>
+                      <strong>Already have an account? <a id="login" href="#">Login</a></strong>
+                </form>
+              </div>
+            </div>
+        </div>
+
+            <div class="ui modal">
+              <i class="close icon"></i>
+              <div class="header">
+                Login
+              </div>
+              <div class="content">
+                <div class="ui one column center aligned grid">
+                  <div class="column four wide form-holder">
+                    <div class="ui form">
+                      <form action="pl.html">
+                      <div class="field">
+                        <input type="email" placeholder="Email" required>
+                      </div>
+                      <div class="field">
+                        <input type="password" placeholder="password" required>
+                      </div>
+                      <div class="field">
+                        <input type="submit" value="Login" class="ui button large fluid primary">
+                      </div>
+                      </form>
+                      </div>
+                    </div>
+                </div>
+
+              </div>
+              <div class="actions">
+                Not yet registered? <a class="ui approve button" href="index.html">Signup Here</a>
+                <div class="ui cancel button">Cancel</div>
+              </div>
+            </div>
+
+<script>
+    $('#login').click(function(){
+        $('.modal').modal('show');
+    });
+</script>
+
+</body>
+</html>

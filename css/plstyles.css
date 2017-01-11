@@ -1,0 +1,288 @@
+.center{
+  text-align: center;
+}
+.heading{
+  height:50px;
+}
+padding-top: 5px;
+body{
+  margin: 0px;
+  padding: 0px;
+}
+img{
+  margin-top: 61px;
+  height: 100%;
+  width:100%;
+}
+.orange,.purple,.pink{
+    height:500px;
+}
+.cap{
+  margin-top: 10px;
+  background-color: grey;
+  border-top: 1px solid white;
+}
+.orange h1{
+  background-color: #b36b00;
+}
+.purple h1{
+  background-color: #002080;
+}
+.pink h1{
+  background-color: #cc0066;
+}
+h1{
+  padding-top:12px;
+  text-align: center;
+  height:70px;
+  color:white;
+}
+.pic{
+  margin: 0px;
+  height: 300px;
+}
+.cards{
+  margin-left: 100px;
+}
+.round{
+  background-color: white;
+  border-radius: 50%;
+  height:400px;
+}
+.circle{
+  background-color: grey;
+  border-top: 1px solid white;
+}
+.foto{
+  height:200px;
+}
+footer ul li{
+  display: inline;
+  font-size: 30px;
+  padding-right: 30px;
+  color:white;
+}
+footer{
+  text-align: center;
+  background-color: black;
+}
+a{
+  color: white;
+}
+h2{
+text-align: center;
+padding-top: 20%;
+}
+p{
+  font-size: 70px;
+  color:green;
+  padding: 10%
+}
+#table{
+  background-color:grey;
+  height:580px;
+}
+tr:nth-child(even){
+  background-color: white;
+}
+tr:nth-child(odd){
+  background: lightblue;
+}
+table{
+  border: 1px solid white;
+  width:100%;
+  text-align: center;
+}
+td,th{
+  padding: 15px;
+}
+#points{
+  background-color: grey;
+  border: 1px solid white;
+}
+.firstfull,.secondfull{
+  height:500px;
+  background-color: lightgrey;
+}
+.firstfull{
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.secondfull{
+  background-color: grey;
+  margin-right: 10px;
+}
+.colrow{
+  background-color: lightgrey;
+  height:164px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+#colrow{
+  background-color: lightgrey;
+  height:162px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+}
+.stats{
+  background-color: grey;
+  border: 1px solid white;
+  height:530px;
+}
+.firstfull h1{
+  color:#b30086;
+}
+.firstfull ul{
+  list-style:none;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 40px;
+}
+.colrow h2,#colrow h2{
+  padding-top:10px;
+  color:#b30086;
+}
+.colrow ul,#colrow ul{
+  text-align: center;
+  list-style: none;
+  font-size: 18px;
+  line-height: 30px;
+}
+@media only screen and (max-width: 970px) {
+  .round{
+    height:300px;
+  }
+}
+
+@media only screen and (max-width: 885px) {
+  .round{
+    height:200px;
+  }
+  p{
+    padding: 5px;
+  }
+  .stats{
+    height:1040px;
+  }
+  .stats .column .firstfull{
+    width:450px;
+    height:460px;
+    position:relative;
+    left:80px;
+  }
+  .stats .column .secondfull{
+    width:470px;
+    margin-top:470px;
+  }
+  .colrow,#colrow{
+    position: relative;
+    right: 350px;
+    margin-left: 150px;
+  }
+  #colrow{
+    height:200px;
+  }
+  .colrow h2,#colrow h2{
+    padding-top:5px;
+  }
+  .colrow ul,#colrow ul{
+    font-size: 16px;
+  }
+  #table{
+    padding-left: 90px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  /*.orange,.purple,.pink{
+    width:250px;
+    position: relative;
+    left: -100px;
+  }*/
+}
+@media only screen and (max-width: 550px) {
+  /*.orange,.purple,.pink{
+    width:200px;
+    position: relative;
+    left: 300px;
+  }*/
+  .round{
+    height:100px;
+  }
+  p{
+    font-size: 30px;
+    padding: 0px;
+  }
+  td,th{
+    padding:13px;
+  }
+  .stats .column .firstfull{
+    width:320px;
+    height:450px;
+    postion:relative;
+    left:73px;
+    margin-right: 100px;
+  }
+  .colrow,#colrow{
+    position: relative;
+    right: 300px;
+    margin-left: 150px;
+  }
+  #table{
+    padding-left: 10px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  td,th{
+    padding:5px;
+  }
+  #table{
+    height:360px;
+  }
+  .stats .column .firstfull{
+    width:300px;
+    height:500px;
+    margin:0px;
+    position: absolute;
+    left:40px;
+  }
+    .stats .column .secondfull{
+      margin-top: 510px;
+      width:300px;
+      position: absolute;
+      left:0px;
+    }
+    .colrow{
+      height:200px;
+      width:300px;
+      padding-left: 0px;
+      margin-left: 130px;
+    }
+    #colrow{
+      display: none;
+    }
+    .stats{
+      height:1030px;
+    }
+}
+@media only screen and (max-width: 350px) {
+  td,th{
+    padding:0px;
+  }
+  #table{
+    height:360px;
+  }
+  .stats .column .firstfull{
+    width:300px;
+    height:500px;
+    margin:0px;
+    position: absolute;
+    left:3px;
+  }
+  .round{
+    height:100px;
+    padding: 0px;
+  }
+  .round h2{
+    font-size: 15px;
+  }
