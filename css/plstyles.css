@@ -112,6 +112,7 @@ td,th{
 .firstfull,.secondfull{
   height:500px;
   background-color: lightgrey;
+  font-family: 'Slabo 27px', serif;
 }
 .firstfull{
   border-radius: 10px;
